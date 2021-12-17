@@ -11,6 +11,8 @@ function main() {
   let result = [];
   for (let click of clicks) {
     let key = createIPKey(click.ip, click.timestamp);
+    
+    // if the key value pair matches, the result is pushed in array
     if (map[key] && map[key] === click.amount) result.push(click);
   }
   fs.writeFile("resultset.json", JSON.stringify(result), (error) => {
