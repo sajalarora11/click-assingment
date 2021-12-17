@@ -12,7 +12,7 @@ Follow the below steps to run this project in your local machine
 git clone https://github.com/sajalarora11/click-assingment.git
 
 # Navigate to project folder
-cd click-assignment
+cd click-assingment
 
 # Install dependencies
 npm i
